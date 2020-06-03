@@ -29,6 +29,9 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>${maven.compiler.plugin.version}</version>
         <configuration>
+          <manifest>
+						<mainClass>org.arpit.java2blog.AppMain</mainClass>
+					</manifest>
           <source>${jdk.version}</source>
           <target>${jdk.version}</target>
         </configuration>
